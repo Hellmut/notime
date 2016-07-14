@@ -1,0 +1,11 @@
+[Unit]
+Description=E-mail notification service
+After=local-fs.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/notime
+
+[Install]
+WantedBy=multi-user.target
+
