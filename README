@@ -1,0 +1,8 @@
+NotiMe files:
+/etc/systemd/system/notime.service
+/etc/notime/notime.sh +x
+/etc/notime/host_internet_addr.conf
+/usr/bin/notime
+
+Ssmtp config file:
+/etc/ssmtp/ssmtp.conf
